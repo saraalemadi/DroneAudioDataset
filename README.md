@@ -4,7 +4,7 @@ This repo consists of drone audio dataset which has been recorded of drone prope
 
 The noise clips that categorised as 'Unknown' in both binary and multiclass folders are used from the open-source project ESC: Dataset for Environmental Sound Classification by Karol J. Piczak (https://github.com/karoldvl/ESC-50) and the white noise from Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition by Pete Warden (https://arxiv.org/pdf/1804.03209.pdf and https://www.tensorflow.org/tutorials/sequences/audio_recognition). In addition, we have created our own silence audio clip to balance the dataset.
 
-## Licence
+### Licence
 
 This dataset is provided **solely for educational and non-commercial academic research purposes**.
 

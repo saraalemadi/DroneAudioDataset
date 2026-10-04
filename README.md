@@ -4,24 +4,36 @@ This repo consists of drone audio dataset which has been recorded of drone prope
 
 The noise clips that categorised as 'Unknown' in both binary and multiclass folders are used from the open-source project ESC: Dataset for Environmental Sound Classification by Karol J. Piczak (https://github.com/karoldvl/ESC-50) and the white noise from Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition by Pete Warden (https://arxiv.org/pdf/1804.03209.pdf and https://www.tensorflow.org/tutorials/sequences/audio_recognition). In addition, we have created our own silence audio clip to balance the dataset.
 
-## Attribution ##
+## Licence
 
-If you use this dataset in your research, cite via the following BibTeX:
+This dataset is provided **solely for educational and non-commercial academic research purposes**.
 
-@INPROCEEDINGS{AlEm1906:Audio,
+**The dataset may not be used, directly or indirectly, for military, defence, intelligence, security, weapons, surveillance, targeting, or other defence-related applications, regardless of whether the use is commercial or non-commercial.**
 
-AUTHOR=”Sara A Al-Emadi and Abdulla K Al-Ali and Abdulaziz Al-Ali and Amr Mohamed”,
+Commercial use requires prior written permission from the copyright holder. See [`LICENSE.md`](LICENSE.md) for the complete terms and conditions.
 
-TITLE=”Audio Based Drone Detection and Identification using Deep Learning”,
+### Third-Party Materials
 
-BOOKTITLE=”IWCMC 2019 Vehicular Symposium (IWCMC-VehicularCom 2019)”,
+This repository contains audio material originating from third-party datasets, including **ESC-50** and **Speech Commands**. These materials are not covered by this licence and remain subject to their respective licences.
 
-ADDRESS=”Tangier, Morocco”,
+Users are responsible for identifying and complying with the applicable terms of those third-party datasets.
 
-DAYS=23,
+If you require permission for a use not covered by this licence, please contact the copyright holder.
 
-MONTH=jun,
 
-YEAR=2019,
+### Citation
+
+If you use this dataset in your research, please cite the following publication:
+
+```bibtex
+@INPROCEEDINGS{AlEmadi2019Audio,
+  author    = {Sara A. Al-Emadi and Abdulla K. Al-Ali and Abdulaziz Al-Ali and Amr Mohamed},
+  title     = {Audio Based Drone Detection and Identification Using Deep Learning},
+  booktitle = {2019 International Wireless Communications and Mobile Computing Conference (IWCMC)},
+  address   = {Tangier, Morocco},
+  month     = jun,
+  year      = {2019}
 }
+```
+
 

@@ -102,6 +102,5 @@ All rights not expressly granted under this Licence are reserved by the copyrigh
 
 For permissions beyond the scope of this Licence, including commercial use, redistribution, or any other use not expressly permitted herein, please contact the copyright holder.
 
-Contact: [your email address]
 
 Repository: https://github.com/saraalemadi/DroneAudioDataset
